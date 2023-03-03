@@ -131,11 +131,18 @@ img {
     padding: 10px;
     border: 1px solid white;
     border-width: 2px;
-    width: 290px;
+    width: 250px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     border-radius: 40px;
+}
+
+@media only screen and (max-width: 600px) {
+    .links {
+
+        width: 175px;
+    }
 }
 
 a.links {
