@@ -1,277 +1,546 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js">
-<!--<![endif]-->
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>nocapkitten</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/font-awesome.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/templatemo-style.css">
-    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <!-- 
-        Masonry Template 
-        http://www.templatemo.com/preview/templatemo_434_masonry
-        -->
+  <title>nocapkitten</title>
+  <link rel="icon" href="img/NocapKitten2.png">
+
+  <!-- 
+
+Beauty Template
+
+http://www.templatemo.com/tm-519-beauty
+
+
+-->
+  <script>
+    // detect IE8 and above, and edge
+    if (document.documentMode || /Edge/.test(navigator.userAgent)) {
+      alert('Please use Chrome or Firefox for best browsing experience!');
+    }
+  </script>
+
+  <!-- load CSS -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400">
+  <!-- Google web font "Open Sans" -->
+  <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- https://getbootstrap.com/ -->
+  <link rel="stylesheet" href="css/fontawesome-all.min.css"> <!-- Font awesome -->
+  <link rel="stylesheet" href="slick/slick.css">
+  <link rel="stylesheet" href="slick/slick-theme.css">
+  <link rel="stylesheet" href="css/templatemo-style.css">
+  <link rel="stylesheet" href="css/imageslider.css"> <!-- Templatemo style -->
+  <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+  <!--  END - We recommend to place the above code in head tag of your website html -->
+
 </head>
 
 <body>
-    <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
 
-    <div id="loader-wrapper">
-        <div id="loader"></div>
+  <div class="container">
+    <div class="tm-top-bar"></div>
+
+    <div class="text-center" class="site-top">
+      <h2>Get emial updates from <span class="nocap">nocapkitten</span></h2>
+      <p>Join the nocap community! Sign up for my newsletter and stay updated on the latest
+        news and insights my work. Subscribe now and receive exclusive content delivered straight
+        to your inbox. Don't miss out, join me today!
+        Thank you.</p>
     </div>
-
-    <div class="content-bg"></div>
-    <div class="bg-overlay"></div>
-
-    <!-- SITE TOP -->
-    <div class="site-top">
-        <div class="site-header clearfix">
-
-            <div class="container">
-                <a href="#" class="site-brand pull-left"><strong>nocapkitten</strong> gallery</a>
-                <div class="social-icons pull-right">
-                    <ul>
-                        <li><a href="#" class="fa fa-facebook"></a></li>
-                        <li><a href="#" class="fa fa-twitter"></a></li>
-                        <li><a href="#" class="fa fa-behance"></a></li>
-                        <li><a href="#" class="fa fa-dribbble"></a></li>
-                        <li><a href="#" class="fa fa-google-plus"></a></li>
-                    </ul>
-                </div>
-            </div>
-        </div> <!-- .site-header -->
-        <div class="site-banner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-offset-2 col-md-8 text-center">
-                        <h2>Get free templates from <span class="blue">template</span><span class="green">mo</span></h2>
-                        <p>Masonry is free responsive template that can be used for any website. You may download,
-                            modify and use this layout for your personal or commercial websites. Please tell your
-                            friends about <span class="blue">template</span><span class="green">mo</span>.com website.
-                            Thank you.</p>
-                    </div>
-                </div>
-                <div class="row">
-                    <form action="#" method="post" class="subscribe-form">
-                        <fieldset class="col-md-offset-4 col-md-3 col-sm-8">
-                            <input type="email" id="subscribe-email" placeholder="Enter your email...">
-                        </fieldset>
-                        <fieldset class="col-md-5 col-sm-4">
-                            <input type="submit" id="subscribe-submit" class="button white" value="Subscribe!">
-                        </fieldset>
-                    </form>
-                </div>
-            </div>
-        </div> <!-- .site-banner -->
-    </div> <!-- .site-top -->
-
-    <!-- MAIN POSTS -->
-    <div class="main-posts">
-        <div class="container">
-            <div class="row">
-                <div class="blog-masonry masonry-true">
-                    <div class="post-masonry col-md-4 col-sm-6">
-                        <div class="post-thumb">
-                            <img src="images/nocapicon3.png" alt="">
-                            <div class="title-over">
-                                <h4><a href="#">Title one goes here</a></h4>
-                            </div>
-                            <div class="post-hover text-center">
-                                <div class="inside">
-                                    <i class="fa fa-plus"></i>
-                                    <span class="date">25 Jan 2084</span>
-                                    <h4><a href="images/nocapicon3.png">Title one goes here</a></h4>
-                                    <p>Cum sociis natoque penatibus et magnis dis parturient</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- /.post-masonry -->
-                    <div class="post-masonry col-md-4 col-sm-6">
-                        <div class="post-thumb">
-                            <img src="images/nocapicon3.png" alt="">
-                            <div class="title-over">
-                                <h4><a href="#">Second Image Title</a></h4>
-                            </div>
-                            <div class="post-hover text-center">
-                                <div class="inside">
-                                    <i class="fa fa-plus"></i>
-                                    <span class="date">24 Jan 2084</span>
-                                    <h4><a href="#">Second Image Title</a></h4>
-                                    <p>Donec venenatis libero sapien, eu condimentum lacus</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- /.post-masonry -->
-                    <div class="post-masonry col-md-4 col-sm-6">
-                        <div class="post-thumb">
-                            <img src="images/nocapicon3.png" alt="">
-                            <div class="title-over">
-                                <h4><a href="#">Image Number Three</a></h4>
-                            </div>
-                            <div class="post-hover text-center">
-                                <div class="inside">
-                                    <i class="fa fa-plus"></i>
-                                    <span class="date">23 Jan 2084</span>
-                                    <h4><a href="#">Image Number Three</a></h4>
-                                    <p>Sed vitae lacus eget ipsum scelerisque condimentum</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- /.post-masonry -->
-                    <div class="post-masonry col-md-4 col-sm-6">
-                        <div class="post-thumb">
-                            <img src="images/nocapicon3.png" alt="">
-                            <div class="title-over">
-                                <h4><a href="#">Aliquam sed magna risus</a></h4>
-                            </div>
-                            <div class="post-hover text-center">
-                                <div class="inside">
-                                    <i class="fa fa-plus"></i>
-                                    <span class="date">22 Jan 2084</span>
-                                    <h4><a href="#">Aliquam sed magna risus</a></h4>
-                                    <p>Praesent pharetra blandit ex sed imperdiet</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- /.post-masonry -->
-                    <div class="post-masonry col-md-4 col-sm-6">
-                        <div class="post-thumb">
-                            <img src="images/nocapicon3.png" alt="">
-                            <div class="title-over">
-                                <h4><a href="#">Lorem ipsum dolor sit</a></h4>
-                            </div>
-                            <div class="post-hover text-center">
-                                <div class="inside">
-                                    <i class="fa fa-plus"></i>
-                                    <span class="date">21 Jan 2084</span>
-                                    <h4><a href="#">Lorem ipsum dolor sit</a></h4>
-                                    <p>Vestibulum faucibus lacus ac risus efficitur</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- /.post-masonry -->
-                    <div class="post-masonry col-md-4 col-sm-6">
-                        <div class="post-thumb">
-                            <img src="images/nocapicon3.png" alt="">
-                            <div class="title-over">
-                                <h4><a href="#">Praesent eget lectus mauris</a></h4>
-                            </div>
-                            <div class="post-hover text-center">
-                                <div class="inside">
-                                    <i class="fa fa-plus"></i>
-                                    <span class="date">20 Jan 2084</span>
-                                    <h4><a href="#">Praesent eget lectus mauris</a></h4>
-                                    <p>Morbi placerat pellentesque tortor, sed auctor dolor</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- /.post-masonry -->
-                    <div class="post-masonry col-md-4 col-sm-6">
-                        <div class="post-thumb">
-                            <img src="images/nocapicon3.png" alt="">
-                            <div class="title-over">
-                                <h4><a href="#">Donec nec metus non</a></h4>
-                            </div>
-                            <div class="post-hover text-center">
-                                <div class="inside">
-                                    <i class="fa fa-plus"></i>
-                                    <span class="date">15 Jan 2084</span>
-                                    <h4><a href="#">Donec nec metus non</a></h4>
-                                    <p>Phasellus eu sapien sagittis, sodales neque ac</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- /.post-masonry -->
-                    <div class="post-masonry col-md-4 col-sm-6">
-                        <div class="post-thumb">
-                            <img src="images/nocapicon3.png" alt="">
-                            <div class="title-over">
-                                <h4><a href="#">Vestibulum faucibus lacus</a></h4>
-                            </div>
-                            <div class="post-hover text-center">
-                                <div class="inside">
-                                    <i class="fa fa-plus"></i>
-                                    <span class="date">14 Jan 2084</span>
-                                    <h4><a href="#">Vestibulum faucibus lacus</a></h4>
-                                    <p>In aliquet et tellus in iaculis. Ut fermentum quis tellus</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- /.post-masonry -->
-                    <div class="post-masonry col-md-4 col-sm-6">
-                        <div class="post-thumb">
-                            <img src="images/nocapicon3.png" alt="">
-                            <div class="title-over">
-                                <h4><a href="#">Pellentesque habitant morbi</a></h4>
-                            </div>
-                            <div class="post-hover text-center">
-                                <div class="inside">
-                                    <i class="fa fa-plus"></i>
-                                    <span class="date">13 Jan 2084</span>
-                                    <h4><a href="#">Pellentesque habitant morbi</a></h4>
-                                    <p>Fusce ullamcorper diam vel arcu scelerisque</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div> <!-- /.post-masonry -->
-                </div>
-            </div>
+    <!-- START - We recommend to place the below code where you want the form in your website html  -->
+    <div class="sib-form" style="text-align: center;
+  background-color: transparent;                                 ">
+      <div id="sib-form-container" class="sib-form-container">
+        <div id="error-message" class="sib-form-message-panel"
+          style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;max-width:540px;">
+          <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+            <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
+              <path
+                d="M256 40c118.621 0 216 96.075 216 216 0 119.291-96.61 216-216 216-119.244 0-216-96.562-216-216 0-119.203 96.602-216 216-216m0-32C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm-11.49 120h22.979c6.823 0 12.274 5.682 11.99 12.5l-7 168c-.268 6.428-5.556 11.5-11.99 11.5h-8.979c-6.433 0-11.722-5.073-11.99-11.5l-7-168c-.283-6.818 5.167-12.5 11.99-12.5zM256 340c-15.464 0-28 12.536-28 28s12.536 28 28 28 28-12.536 28-28-12.536-28-28-28z" />
+            </svg>
+            <span class="sib-form-message-panel__inner-text">
+              Your subscription could not be saved. Please try again.
+            </span>
+          </div>
         </div>
+        <div></div>
+        <div id="success-message" class="sib-form-message-panel"
+          style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#085229; background-color:#e7faf0; border-radius:3px; border-color:#13ce66;max-width:540px;">
+          <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+            <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
+              <path
+                d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 464c-118.664 0-216-96.055-216-216 0-118.663 96.055-216 216-216 118.664 0 216 96.055 216 216 0 118.663-96.055 216-216 216zm141.63-274.961L217.15 376.071c-4.705 4.667-12.303 4.637-16.97-.068l-85.878-86.572c-4.667-4.705-4.637-12.303.068-16.97l8.52-8.451c4.705-4.667 12.303-4.637 16.97.068l68.976 69.533 163.441-162.13c4.705-4.667 12.303-4.637 16.97.068l8.451 8.52c4.668 4.705 4.637 12.303-.068 16.97z" />
+            </svg>
+            <span class="sib-form-message-panel__inner-text">
+              Your subscription has been successful.
+            </span>
+          </div>
+        </div>
+        <div></div>
+        <div id="sib-container" class="sib-container--large sib-container--horizontal"
+          style="text-align:center; background-color:transparent; max-width:540px; border-width:0px; border-color:transparent; border-style:solid; direction:ltr">
+          <form id="sib-form" method="POST"
+            action="https://f34941c2.sibforms.com/serve/MUIEAE6TJgMa7CDQZUWW8qBWCxqeslYoZFPN3E3BzEymU3P3Aqwn0p6-4DbaY6fIBltBJouCLFZFfYXew1T6b_6oPCBCq3Q0x-wuXrvEyCzwt4nGHg1d0H09jPs23TkWbdeIJzeK1gp88G8tnOOlW8IxBAdwW2BxYcwbOR5JmYGIdfKvex5Jz9QeE89-N4kRKGDMnk-SvP-aWvMU"
+            data-type="subscription">
+            <div style="padding: 8px 0;">
+              <div class="sib-input sib-form-block">
+                <div class="form__entry entry_block">
+                  <div class="form__label-row form__label-row--horizontal">
+                    <label class="entry__label"
+                      style="font-weight: 700; text-align:left; font-size:16px; text-align:left; font-weight:700; font-family:&quot;Georgia&quot;, serif; color:#ffffff;"
+                      for="EMAIL" data-required="*">Email</label>
+
+                    <div class="entry__field">
+                      <input class="input " type="text" id="EMAIL" name="EMAIL" autocomplete="off" data-required="true"
+                        required />
+                    </div>
+                  </div>
+
+                  <label class="entry__error entry__error--primary"
+                    style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+                  </label>
+                  <label class="entry__specification"
+                    style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#ffffff; text-align:left">
+                    Provide your email address For e.g abc@xyz.com
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div style="padding: 8px 0;">
+              <div class="sib-form-block" style="text-align: right">
+                <button class="sib-form-block__button sib-form-block__button-with-loader"
+                  style="font-size:16px; text-align:right; font-weight:700; font-family:&quot;Georgia&quot;, serif; color:#FFFFFF; background-color:#d93694; border-radius:10px; border-width:0px;"
+                  form="sib-form" type="submit">
+                  <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon" viewBox="0 0 512 512">
+                    <path
+                      d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
+                  </svg>
+                  SUBSCRIBE
+                </button>
+              </div>
+            </div>
+
+            <input type="text" name="email_address_check" value="" class="input--hidden">
+            <input type="hidden" name="locale" value="en">
+          </form>
+        </div>
+      </div>
     </div>
+    <!-- END - We recommend to place the below code where you want the form in your website html  -->
 
-    <!-- FOOTER -->
-    <footer class="site-footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <div class="social-icons">
-                        <ul>
-                            <li><a href="#" class="fa fa-facebook"></a></li>
-                            <li><a href="#" class="fa fa-twitter"></a></li>
-                            <li><a href="#" class="fa fa-behance"></a></li>
-                            <li><a href="#" class="fa fa-dribbble"></a></li>
-                            <li><a href="#" class="fa fa-google-plus"></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <p class="copyright-text">Copyright &copy; 2084 Company Name
-                        | Photos by <a rel="nofollow" href="http://unsplash.com">Unsplash</a></p>
-                </div>
-            </div>
+  </div>
+
+
+
+  <!-- Loader -->
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+
+  <div class="container">
+
+    <div class="tm-top-bar"></div>
+
+    <!-- Welcome section -->
+    <section class="tm-welcome">
+
+      <div class="tm-welcome-left">
+        <!-- Logo -->
+        <div class="tm-logo">
+          <!-- <h1 class="tm-site-name">Beauty</h1> -->
         </div>
-    </footer>
+        <div class="tm-welcome-content">
+          <!-- fa icons -->
+          <div class="tm-welcome-icons-container">
+            <i class="fas fa-crown fa-3x tm-welcome-icon"></i>
+            <i class="fas fa-heart fa-3x tm-welcome-icon"></i>
+          </div>
 
-    <script src="js/vendor/jquery-1.10.2.min.js"></script>
-    <script src="js/min/plugins.min.js"></script>
-    <script src="js/min/main.min.js"></script>
+          <h1 class="tm-mb-25">nocapkitten</h1>
+          <p class="tm-font-big"> ia a woman of class and elegance, with a sharp mind and a sophisticated
+            style. She is always impeccably dressed and carries herself with poise and confidence. Her beauty is
+            matched only by her intelligence, and she is not a woman to be underestimated.</p>
 
-    <!-- Preloader -->
-    <script type="text/javascript">
-        //<![CDATA[
-        $(window).load(function () { // makes sure the whole site is loaded
-            $('#loader').fadeOut(); // will first fade out the loading animation
-            $('#loader-wrapper').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website.
-            $('body').delay(350).css({ 'overflow-y': 'visible' });
-        })
-            //]]>
-    </script>
-    <!-- templatemo 434 masonry -->
+        </div>
+
+      </div>
+
+      <div class="tm-welcome-right"></div>
+
+    </section>
+    <div class="text-center social-icons">
+      <ul>
+        <li><a href="https://fetlife.com/users/15498492" class="fas fa-heart fa-2x"></a></li>
+        <li><a href="https://twitter.com/nocapkitten" class="fab fa-twitter fa-2x"></a></li>
+        <li><a href="https://www.snapchat.com/add/nocapkitten1" class="fab fa-snapchat fa-2x"></a></li>
+        <li><a href="https://www.reddit.com/u/nocapkitten" class="fab fa-reddit fa-2x"></a></li>
+        <li><a href="https://instagram.com/nocapkitten" class="fab fa-instagram fa-2x"></a></li>
+        <li><a href="https://cash.app/$nocapkitten" class="fas fa-dollar-sign fa-2x"></a></li>
+      </ul>
+    </div>
+    <div class="tm-bar-2"></div>
+
+
+    <section class="row tm-section-mb tm-section-2">
+      <div class="col-md-12 tm-section-2-inner">
+        <div class="tm-section-2-left">
+          <div class="tm-img-container tm-img-container-1"></div>
+          <div class="tm-img-container tm-img-container-2"></div>
+        </div>
+        <div class="tm-section-2-right tm-bg-primary">
+          <div class="tm-section-2-text">
+            <h2 class="tm-section-2-header tm-mb-45">Let's get social!</h2>
+            <p>Come follow me on social media! Don't miss out on exclusive content, chats, and
+              updates on my latest endeavors.
+            </p>
+            <div class="main-links">
+
+              <!-- Links-->
+              <a href="https://fetlife.com/users/15498492" class="links"><i
+                  class="fas fa-heart fa-2x tm-link-icon"></i>fetlife</a>
+              <a href="https://twitter.com/nocapkitten" class="links"><i
+                  class="fab fa-twitter fa-2x tm-link-icon"></i>twitter</a>
+              <a href="https://www.snapchat.com/add/nocapkitten1" class="links"><i
+                  class="fab fa-snapchat fa-2x tm-link-icon"></i>snapchat</a>
+              <a href="https://www.reddit.com/u/nocapkitten" class="links"><i
+                  class="fab fa-reddit fa-2x tm-link-icon"></i>reddit</a>
+              <a href="https://instagram.com/nocapkitten" class="links"><i
+                  class="fab fa-instagram fa-2x tm-link-icon"></i>instagram</a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="row tm-section-3">
+      <div class="col-md-12 tm-section-3-inner">
+        <div class="tm-section-3-left tm-bg-primary">
+          <div class="tm-section-3-text">
+            <i class="fas fa-heart fa-5x tm-welcome-icon d-block text-center ml-0"></i>
+            <h2 class="tm-section-3-header tm-mb-35">$nocapkitten</h2>
+            <p>Please consider supporting my work. Your contributions help me to continue pursuing my passions!</p>
+            <a href="https://cash.app/$nocapkitten" class="d-block tm-welcome-link links"><i
+                class="fas fa-dollar-sign tm-link-icon"></i></i>Cashapp</a>
+          </div>
+        </div>
+        <div class="tm-section-3-right">
+          <div class="tm-img-container tm-img-container-3"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="row tm-section-pt tm-section-pb">
+      <div class="col-md-6 mx-auto text-center">
+        <h2 class="tm-text-dark tm-mb-50">THE COMMUNITY</h2>
+        <p class="tm-text-light-dark tm-font-big">Quisque venenatis lectus vitae massa rhoncus, ut ultricies tortor
+          rhoncus. Donec lacinia elit dio, eget elementum sapien tempor at. Suspendisse potenti. Phasellus feugiat massa
+          eget nunc auctor semper.</p>
+      </div>
+    </section> -->
+    <section>
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="img/1.png" style="width:100%">
+        </div>
+
+
+        <div class="mySlides fade">
+          <img src="img/2.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="img/3.png" style="width:100%">
+        </div>
+
+        <div class="mySlides fade">
+          <img src="img/4.png" style="width:100%">
+        </div>
+
+
+
+      </div>
+      <br>
+
+      <div style="text-align:center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+
+
+      </div>
+    </section>
+
+    <section class="row">
+
+      <div class="col-md-4">
+        <!-- START - We recommend to place the below code where you want the form in your website html  -->
+        <!-- <div class="sib-form" style="text-align: center;
+    background-color: transparent;                                 ">
+          <div id="sib-form-container" class="sib-form-container">
+            <div id="error-message" class="sib-form-message-panel"
+              style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;max-width:350px;">
+              <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+                <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
+                  <path
+                    d="M256 40c118.621 0 216 96.075 216 216 0 119.291-96.61 216-216 216-119.244 0-216-96.562-216-216 0-119.203 96.602-216 216-216m0-32C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm-11.49 120h22.979c6.823 0 12.274 5.682 11.99 12.5l-7 168c-.268 6.428-5.556 11.5-11.99 11.5h-8.979c-6.433 0-11.722-5.073-11.99-11.5l-7-168c-.283-6.818 5.167-12.5 11.99-12.5zM256 340c-15.464 0-28 12.536-28 28s12.536 28 28 28 28-12.536 28-28-12.536-28-28-28z" />
+                </svg>
+                <span class="sib-form-message-panel__inner-text">
+                  Your subscription could not be saved. Please try again.
+                </span>
+              </div>
+            </div>
+            <div></div>
+            <div id="success-message" class="sib-form-message-panel"
+              style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#085229; background-color:#e7faf0; border-radius:3px; border-color:#13ce66;max-width:350px;">
+              <div class="sib-form-message-panel__text sib-form-message-panel__text--center">
+                <svg viewBox="0 0 512 512" class="sib-icon sib-notification__icon">
+                  <path
+                    d="M256 8C119.033 8 8 119.033 8 256s111.033 248 248 248 248-111.033 248-248S392.967 8 256 8zm0 464c-118.664 0-216-96.055-216-216 0-118.663 96.055-216 216-216 118.664 0 216 96.055 216 216 0 118.663-96.055 216-216 216zm141.63-274.961L217.15 376.071c-4.705 4.667-12.303 4.637-16.97-.068l-85.878-86.572c-4.667-4.705-4.637-12.303.068-16.97l8.52-8.451c4.705-4.667 12.303-4.637 16.97.068l68.976 69.533 163.441-162.13c4.705-4.667 12.303-4.637 16.97.068l8.451 8.52c4.668 4.705 4.637 12.303-.068 16.97z" />
+                </svg>
+                <span class="sib-form-message-panel__inner-text">
+                  Your subscription has been successful.
+                </span>
+              </div>
+            </div>
+            <div></div>
+            <div id="sib-container" class="sib-container--large sib-container--vertical"
+              style="text-align:center; background-color:transparent; max-width:350px; border-radius:10px; border-width:9px; border-color:transparent; border-style:solid; direction:ltr">
+              <form id="sib-form" method="POST"
+                action="https://f34941c2.sibforms.com/serve/MUIEAHY0cEUpUROYjsJYcSkSXOzsq2ri0TXbFs-FMRikWODyiae9lQgv9yzNXuql8jSxKRvbLMhWKG29zLW95avrucjoSwEpCoqLyxCcZvlYxzRwSl72SQDItBddJXqK_izpQdNDKCJbR-cloGBwt0arkpb0u7xXY36JYKewKLaI452rHVxccZpuOGbP5DsmoE6ZSOHa2JHcWO4X"
+                data-type="subscription">
+                <div style="padding: 8px 0;">
+                  <div class="sib-form-block sib-divider-form-block">
+                    <div style="border: 0; border-bottom: 10px solid #d93694"></div>
+                  </div>
+                </div>
+                <div style="padding: 8px 0;">
+                  <div class="sib-input sib-form-block">
+                    <div class="form__entry entry_block">
+                      <div class="form__label-row ">
+                        <label class="entry__label"
+                          style="font-weight: 700; text-align:left; font-size:16px; text-align:left; font-weight:700; font-family:&quot;Georgia&quot;, serif; color:#ffffff;"
+                          for="EMAIL" data-required="*">Enter your email address to subscribe</label>
+
+                        <div class="entry__field" style="color: #333333;">
+                          <input class="input " type="text" id="EMAIL" name="EMAIL" autocomplete="off" placeholder=""
+                            data-required="true" required />
+                        </div>
+                      </div>
+
+                      <label class="entry__error entry__error--primary"
+                        style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+                      </label>
+                      <label class="entry__specification"
+                        style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#ffffff; text-align:left">
+                        Provide your email address For e.g abc@xyz.com
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div style="padding: 8px 0;">
+                  <div class="sib-optin sib-form-block" data-required="true">
+                    <div class="form__entry entry_mcq">
+                      <div class="form__label-row ">
+                        <div class="entry__choice" style="">
+                          <label>
+                            <input type="checkbox" class="input_replaced" value="1" id="OPT_IN" name="OPT_IN"
+                              required />
+                            <span class="checkbox checkbox_tick_positive" style="margin-left:"></span><span
+                              style="font-size:14px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:transparent; background-color:transparent;">
+                              <p>Checkbox</p><span data-required="*" style="display: inline;"
+                                class="entry__label entry__label_optin"></span>
+                            </span> </label>
+                        </div>
+                      </div>
+                      <label class="entry__error entry__error--primary"
+                        style="font-size:16px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#661d1d; background-color:#ffeded; border-radius:3px; border-color:#ff4949;">
+                      </label>
+                      <label class="entry__specification"
+                        style="font-size:12px; text-align:left; font-family:&quot;Helvetica&quot;, sans-serif; color:#ffffff; text-align:left">
+                        Yes, I would like to receive email updates.
+                      </label>
+                    </div>
+                  </div>
+                </div>
+                <div style="padding: 8px 0;">
+                  <div class="sib-form-block" style="text-align: right">
+                    <button class="sib-form-block__button sib-form-block__button-with-loader"
+                      style="font-size:16px; text-align:right; font-weight:700; font-family:&quot;Georgia&quot;, serif; color:#FFFFFF; background-color:#d93694; border-radius:10px; border-width:0px;"
+                      form="sib-form" type="submit">
+                      <svg class="icon clickable__icon progress-indicator__icon sib-hide-loader-icon"
+                        viewBox="0 0 512 512">
+                        <path
+                          d="M460.116 373.846l-20.823-12.022c-5.541-3.199-7.54-10.159-4.663-15.874 30.137-59.886 28.343-131.652-5.386-189.946-33.641-58.394-94.896-95.833-161.827-99.676C261.028 55.961 256 50.751 256 44.352V20.309c0-6.904 5.808-12.337 12.703-11.982 83.556 4.306 160.163 50.864 202.11 123.677 42.063 72.696 44.079 162.316 6.031 236.832-3.14 6.148-10.75 8.461-16.728 5.01z" />
+                      </svg>
+                      SUBSCRIBE
+                    </button>
+                  </div>
+                </div>
+                <div style="padding: 8px 0;">
+                  <div class="sib-form-block sib-divider-form-block">
+                    <div style="border: 0; border-bottom: 10px solid #d93694"></div>
+                  </div>
+                </div>
+
+                <input type="text" name="email_address_check" value="" class="input--hidden">
+                <input type="hidden" name="locale" value="en">
+              </form>
+            </div>
+          </div>
+        </div> -->
+        <!-- END - We recommend to place the below code where you want the form in your website html  -->
+        <!-- </div>
+      <div class="col-md-7 d-flex tm-contact-left-col">
+        <div class="tm-bg-primary tm-contact-left">
+          <div class="tm-contact-left-inner">
+            <h2 class="text-center tm-mb-40 tm-contact-header">Newsletter</h2>
+            <p class="tm-line-height-2 mb-5">Sign up to get the latest nocapkitten updates!</p> -->
+        <!-- <div class="mb-2 tm-font-normal">
+              Tel: <a href="tel:0900900990" class="mt-5 tm-contact-link">090-090-0990</a>
+            </div>
+            <div class="mb-2 tm-font-normal">
+              Fax: <a href="tel:0800800880" class="tm-contact-link">080-080-0880</a>
+            </div>
+            <div class="mb-2 tm-font-normal">
+              Email: <a href="mailto:info@company.com" class="tm-contact-link">info@company.com</a>
+            </div> -->
+      </div>
+  </div>
+  </div>
+  </section>
+
+
+  <!-- <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="social-icons">
+              <ul>
+                <li><a href="#" class="fab fa-facebook"></a></li>
+                <li><a href="#" class="fab fa-twitter"></a></li>
+                <li><a href="#" class="fab fa-behance"></a></li>
+                <li><a href="#" class="fab fa-dribbble"></a></li>
+                <li><a href="#" class="fab fa-google-plus"></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </footer> -->
+
+  <footer class="pt-4 pb-4">
+    <div class="text-center social-icons">
+      <ul>
+        <li><a href="https://fetlife.com/users/15498492" class="fas fa-heart"></a></li>
+        <li><a href="https://twitter.com/nocapkitten" class="fab fa-twitter"></a></li>
+        <li><a href="https://www.snapchat.com/add/nocapkitten1" class="fab fa-snapchat"></a></li>
+        <li><a href="https://www.reddit.com/u/nocapkitten" class="fab fa-reddit"></a></li>
+        <li><a href="https://instagram.com/nocapkitten" class="fab fa-instagram"></a></li>
+        <li><a href="https://cash.app/$nocapkitten" class="fas fa-dollar-sign"></a></li>
+      </ul>
+    </div>
+    <p class="text-center tm-text-light-dark">Copyright &copy; 2023 nocapkitten
+
+      | Design: <a rel="nofollow" href="http://templatemo.com" class="tm-text-light-dark">TemplateMo</a></p>
+  </footer>
+
+  </div> <!-- container -->
+
+  <script src="js/jquery-3.2.1.slim.min.js"></script>
+  <script src="slick/slick.min.js"></script>
+  <script>
+
+    $(function () {
+      $('.tm-gallery').slick({
+        dots: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 2,
+        responsive: [
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ]
+      });
+    });
+
+  </script>
+  <script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+      let i;
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1 }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 10000); // Change image every 2 seconds
+    }
+  </script>
+  <!-- START - We recommend to place the below code in footer or bottom of your website html  -->
+  <script>
+    window.REQUIRED_CODE_ERROR_MESSAGE = 'Please choose a country code';
+    window.LOCALE = 'en';
+    window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+
+    window.REQUIRED_ERROR_MESSAGE = "This field cannot be left blank. ";
+
+    window.GENERIC_INVALID_MESSAGE = "The information provided is invalid. Please review the field format and try again.";
+
+
+
+
+    window.translation = {
+      common: {
+        selectedList: '{quantity} list selected',
+        selectedLists: '{quantity} lists selected'
+      }
+    };
+
+    var AUTOHIDE = Boolean(1);
+  </script>
+  <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+
+
+  <!-- END - We recommend to place the above code in footer or bottom of your website html  -->
 </body>
 
 </html>
